@@ -1,0 +1,1 @@
+console.log('JS email OK');

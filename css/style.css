@@ -1,0 +1,182 @@
+/* FUNZIONALITÀ */
+:root {
+    --font-size-s:0.6rem;
+    --font-size-m:1rem;
+    --font-size-l:1.5rem;
+    --font-size-xl:2rem;
+    --font-size-xxl:3.5rem;
+    --font-size-xxxl:5rem;
+    --card-space: 2px;
+
+    --color-card: #ec407a;
+    --grey: #969696;
+    --light-grey: #cdcdcd;
+    --blue: #4285f4;
+    --orange: #fabb05;
+    --light-orange: rgb(244, 213, 141);
+    --light-blue: #b4d0e7;
+
+}
+
+/* GENERALI */
+main {
+    overflow: hidden;
+    height: 100vh;
+}
+
+section {
+    height: 100vh;
+    background-color: #d7d6d6;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+
+/**************** Tasti per selezionare la pagina ****************/
+.main-selector {
+    position: fixed;
+    top: 20px;
+    left: 10px;
+
+    z-index: 1;
+}
+
+.main-selector a:hover {
+    background-color: #0061fe;
+    color: white;
+}
+
+.main-selector a:last-child:hover{
+    background-color: #fabb05;
+}
+
+.main-selector a {
+    text-align: center;
+    font-size: var(--font-size-s);
+
+    border: 1px solid var(--grey);
+    border-radius: 20px;
+
+    background-color: var(--light-blue);
+    padding: 10px;
+}
+
+.main-selector a:last-child{
+    background-color: var(--light-orange);
+}
+
+.main-selector a div {
+    font-weight: 700;
+    font-size: var(--font-size-m);
+}
+
+
+/**************************** header *******************************/
+header{
+    background-color: var(--blue);
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-bottom: 1px solid var(--grey);
+}
+
+#dadi header{
+    background-color: var(--orange);
+}
+
+h1{
+    background-color: var(--light-grey);
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 50px;
+
+    color: rgb(87, 87, 87);
+    border: 1px solid var(--grey);
+
+}
+
+/**************************** cards *******************************/
+.card{
+    width: 100%;
+    margin: 50px auto;
+
+    text-align: center;
+    border: 1px solid var(--grey);
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.card-header{
+    background-color: var(--blue);
+    color: white;
+}
+
+#dadi .card-header{
+    background-color: var(--orange);
+}
+
+.card-header,
+.card-body{
+    padding: 30px;
+}
+
+.card-subtitles{
+    background-color: var(--light-grey);
+    margin: 15px 0;
+    padding: 10px 15px;
+    border-radius: 50px;
+
+    color: rgb(87, 87, 87);
+    font-weight: 600;
+    font-size: var(--font-size-m);
+
+    display: inline-block;
+}
+
+/**************************** sezione DADI*******************************/
+.number{
+    width: 40px;
+    height: 40px;
+    background-color: orange;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+}
+
+
+/**************************************************************************/
+/** Media query larghezza card */
+@media screen and (min-width: 576px){
+    .card{
+        width: 540px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .card{
+        width: 600px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .card{
+        width: 775px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .card{
+        width: 937px;
+    }
+}
