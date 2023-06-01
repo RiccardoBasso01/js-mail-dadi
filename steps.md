@@ -28,15 +28,13 @@ Senza usare il metodo .includes()
 
 > Scaletta
 - Recuperare elemento dalla pagina
-- Generare numero random da 1 a 6 ed assegnarlo ad una variabile
-- AL CLICK di inserimento numero da parte dell' utente
-    - Recuperare il valore inserito ed eseguire la verifica
-        - SE NON passa la verifica
-            - valore sbagliato, fine
-        - ALTRIMENTI verificare che sia più alto del numero generato in precedenza
-            - SE è più alto l' utente ha vinto
-            - ALTRIMENTI l' utente ha perso
-            - Visualizzare tutto in pagina
+- AL CLICK del bottone da parte dell' utente
+    - Generare due numeri random da 1 a 6 ed assegnarlo ad una variabile
+    - Verificare il vincitore
+        - SE è più alto l' utente ha vinto
+        - SE è più basso l' utente ha perso
+        - ALTRIMENTI è un pareggio
+    - Visualizzare tutto in pagina
 
 
 
