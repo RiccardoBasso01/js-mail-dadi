@@ -45,11 +45,13 @@
                 </div>
     
                 <div class="card-body">
-                    <div class="card-subtitles">Inserisci la tua email</div>
+                    <button id="enter-email" class="card-subtitles">Inserisci la tua email</button>
                     <div class="input-group flex-nowrap">
                         <span class="input-group-text">@</span>
-                        <input type="text" class="form-control" placeholder="Email" id="email" value="ricc@email.com">
-                      </div>
+                        <input type="email" class="form-control" placeholder="Email" id="email-input" value="riccardo@email.com" >
+                    </div>
+                    <!-- Messaggio -->
+                    <div id="list-result" class="card-subtitles"></div>
                 </div>
             </div>
         </section>
@@ -78,7 +80,7 @@
                         <div id="pc-number" class="number"></div>
                         <span id="pc-dice"></span>
                     </div>
-
+                    <!-- Messaggio -->
                     <div id="result" class="card-subtitles"></div>
                 </div>
             </div>

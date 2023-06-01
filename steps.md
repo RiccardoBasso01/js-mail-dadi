@@ -10,13 +10,10 @@ Senza usare il metodo .includes()
 > Scaletta
 - Recuperare elemento dalla pagina
 - Creare un array con la lista delle email
-- Recuperare l'input inserito ed eseguire la verifica
-    - SE NON passa la verifica
-        - valore sbagliato, fine
-    - SE il dato passa la verifica, controllare che sia presente sulla lista array
+- AL CLICK del bottone, recuperare l'input inserito
+    - Controllare che sia presente sulla lista array
         - PER ogni elemento della lista controllare se c'è corrispondenza
             - SE è presente si da il benvenuto
-            - ALTRIMENTI si avvisa l' utente 
     
 
 ---
