@@ -136,6 +136,8 @@ h1{
     color: rgb(87, 87, 87);
     font-weight: 600;
     font-size: var(--font-size-m);
+    border: 1px solid var(--grey);
+
 
     display: inline-block;
 }
@@ -144,16 +146,33 @@ h1{
 .number{
     width: 40px;
     height: 40px;
+    margin-right: 10px;
     background-color: orange;
+    color: white;
     border-radius: 50%;
 
     display: flex;
     align-items: center;
     justify-content: center;
 
+}
+
+.winner{
+    background-color: green;
     color: white;
 }
 
+.loser{
+    background-color: red;
+    color: white;
+
+}
+
+.balance{
+    background-color: orange;
+    color: white;
+
+}
 
 /**************************************************************************/
 /** Media query larghezza card */

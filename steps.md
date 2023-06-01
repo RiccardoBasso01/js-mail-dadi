@@ -7,12 +7,36 @@
 
 Senza usare il metodo .includes()
 
+> Scaletta
+- Recuperare elemento dalla pagina
+- Creare un array con la lista delle email
+- Recuperare l'input inserito ed eseguire la verifica
+    - SE NON passa la verifica
+        - valore sbagliato, fine
+    - SE il dato passa la verifica, controllare che sia presente sulla lista array
+        - PER ogni elemento della lista controllare se c'è corrispondenza
+            - SE è presente si da il benvenuto
+            - ALTRIMENTI si avvisa l' utente 
+    
+
 ---
 
 > ## Esercizio Gioco dei dadi
 - Generare un numero random da 1 a 6, sia per il giocatore sia per il computer.
 - Stabilire il vincitore, in base a chi fa il punteggio più alto.
 - Stampare in pagina
+
+> Scaletta
+- Recuperare elemento dalla pagina
+- Generare numero random da 1 a 6 ed assegnarlo ad una variabile
+- AL CLICK di inserimento numero da parte dell' utente
+    - Recuperare il valore inserito ed eseguire la verifica
+        - SE NON passa la verifica
+            - valore sbagliato, fine
+        - ALTRIMENTI verificare che sia più alto del numero generato in precedenza
+            - SE è più alto l' utente ha vinto
+            - ALTRIMENTI l' utente ha perso
+            - Visualizzare tutto in pagina
 
 
 
